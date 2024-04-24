@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['droplet']
+
+roboflow:
+  workspace: ustc-2v5x9
+  project: droplet-detection-jq2qg
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ustc-2v5x9/droplet-detection-jq2qg/dataset/1
